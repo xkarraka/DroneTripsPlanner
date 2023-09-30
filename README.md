@@ -6,6 +6,7 @@ Small Console application that finds the best load distribution for a Squad of D
  - NUnit
  
 **Walk Through**
+
 This solution takes a specified List of Drones and Drop points from a plain text (input.txt) file, once the information is taken from the input file, the Application order the Drop points by Ascending and start to identify which of the Drones have enough capacity to carry the package. Once all data is processed, the application generates a plain text file (output.txt) with the distribution. If an exception is thrown during the life cycle of the app, it will be shown in the console, and the execution is aborted.
 
 **Input File Format**
@@ -28,5 +29,7 @@ This solution takes a specified List of Drones and Drop points from a plain text
 2. Put the output file in the bin folder of the solution. (\<root folder>\DroneTripPlanner\bin\Debug\net7.0 if the Project is in Debug Mode)
 3. Start debugging or executing the Console App generated in the bin folder.
 4. If the application runs successfully the output file will be generated in the bin folder, otherwise, any error will be displayed in the console.
+
+**Time Spent:** About Six hours
 
 **Note:** Since this application has been created using .NET Core, it could be executed on Win/Linux/MacOS
